@@ -1,0 +1,39 @@
+{
+  "name": "vue-path-resolver",
+  "displayName": "Vue Path Resolver",
+  "description": "无后缀的 import/require 路径 Cmd+点击 跳转到 .vue、.js、index.vue 等实际文件。支持静态/动态 import、require、export from、@/ 与 views 等别名。",
+  "version": "0.1.0",
+  "publisher": "chenpengxiang1993",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chenpengxiang1993/vue-path-resolver.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chenpengxiang1993/vue-path-resolver/issues"
+  },
+  "homepage": "https://github.com/chenpengxiang1993/vue-path-resolver#readme",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Other",
+    "Programming Languages"
+  ],
+  "keywords": [
+    "vue",
+    "import",
+    "path",
+    "go to definition",
+    "extensionless",
+    "resolve"
+  ],
+  "activationEvents": [
+    "onLanguage:javascript",
+    "onLanguage:javascriptreact",
+    "onLanguage:typescript",
+    "onLanguage:typescriptreact",
+    "onLanguage:vue"
+  ],
+  "main": "./extension.js"
+}
